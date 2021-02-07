@@ -3,7 +3,7 @@ class Gitlab < Formula
     homepage "https://github.com/cinema8150/gitlab"
     url "https://github.com/cinema8150/gitlab/archive/v0.1.0.tar.gz"
     version = '0.1.0'
-    sha256 "7da9e21b7365030ca649288243ede1dca33326436615123c51220cf5d530f221"
+    sha256 "7e740d7f5ef349f124eb827cbd35cfd0a42a8d3a9e683d31f88183e1aa771512"
     # license ""
       
     def install
