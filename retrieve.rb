@@ -10,7 +10,7 @@ class Retrieve < Formula
   depends_on "go" => :build
   
   def install
-    bin.install "jenkins-cli"
+    bin.install "retrieve"
   end
 
 end
