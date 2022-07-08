@@ -4,8 +4,8 @@
 class Publish < Formula
   desc ""
   homepage ""
-  url "https://github.com/cinema8150/publish/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "4d062d1f505dd9c9299d2ee84b153d409cc14ed780ba65af8ad4fd14e63a9606"
+  url "https://github.com/cinema8150/publish/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "bcd6bd8cdb246d7c9ef314e5122bac006a79afb5abea4c0ef0376d2f2dc8e345"
   license ""
 
   def install
