@@ -4,8 +4,8 @@
 class JenkinsCli < Formula
   desc ""
   homepage ""
-  url "https://github.com/cinema8150/jenkins-cli/archive/refs/tags/0.3.0.tar.gz"
-  sha256 "c7ac0315786fd39e9e50404e7d5ca53a7a7abf1cbc7f5edbbcec67dc50eb2c91"
+  url "https://github.com/cinema8150/jenkins-cli/archive/refs/tags/1.0.0.tar.gz"
+  sha256 "18e1f41cf4467e15da027224601a77b6acb9b688efdf232c2109b18523c388d0"
   license ""
 
   def install
