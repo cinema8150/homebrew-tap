@@ -5,12 +5,12 @@
 class PublishModule < Formula
   desc ""
   homepage ""
-  version "0.9.6"
+  version "0.9.7"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cinema8150/publish_module/releases/download/v0.9.6/publish_module_Darwin_arm64.tar.gz", using: CurlDownloadStrategy
-      sha256 "efe326cb5209717138f1ac8bceb02c9f6b54b38c7812de7cea853830276f3a10"
+      url "https://github.com/cinema8150/publish_module/releases/download/v0.9.7/publish_module_Darwin_arm64.tar.gz?private_token=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", using: CurlDownloadStrategy
+      sha256 "6635f46c6810b32bb60038f28696e20749d317f7dadca47baaca7d36e00bc54f"
 
       def install
         bin.install "publish-module"
@@ -18,8 +18,8 @@ class PublishModule < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cinema8150/publish_module/releases/download/v0.9.6/publish_module_Darwin_x86_64.tar.gz", using: CurlDownloadStrategy
-      sha256 "d46e47280744312d59ac0996310656ff5d4c056fd2a2c6a7bdac3775bf3d4e68"
+      url "https://github.com/cinema8150/publish_module/releases/download/v0.9.7/publish_module_Darwin_x86_64.tar.gz?private_token=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", using: CurlDownloadStrategy
+      sha256 "527a5eb6687b74398d1bc558509808de3f52957cb8d7cfd502b1fc455575d472"
 
       def install
         bin.install "publish-module"
@@ -30,8 +30,8 @@ class PublishModule < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cinema8150/publish_module/releases/download/v0.9.6/publish_module_Linux_arm64.tar.gz", using: CurlDownloadStrategy
-      sha256 "4a0f3957ce7fb36bcd66c8803f597a0c0fbaa0b8a541ce8781c7a1869eb34704"
+      url "https://github.com/cinema8150/publish_module/releases/download/v0.9.7/publish_module_Linux_arm64.tar.gz?private_token=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", using: CurlDownloadStrategy
+      sha256 "66de58b01811696bdda324b6d1bf94652461f7eb13631709abfb50e4ea1d9a69"
 
       def install
         bin.install "publish-module"
@@ -39,8 +39,8 @@ class PublishModule < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cinema8150/publish_module/releases/download/v0.9.6/publish_module_Linux_x86_64.tar.gz", using: CurlDownloadStrategy
-      sha256 "01fd47e52864bce8fe7dd44eee2f57c8956c745a17ab0a356f595c698c9cf2c7"
+      url "https://github.com/cinema8150/publish_module/releases/download/v0.9.7/publish_module_Linux_x86_64.tar.gz?private_token=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", using: CurlDownloadStrategy
+      sha256 "5facebcb280cb6de53d3a40b995d87f9045fa03b11d301195e7cb07959d6c51b"
 
       def install
         bin.install "publish-module"
